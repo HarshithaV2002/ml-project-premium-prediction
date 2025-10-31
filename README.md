@@ -46,7 +46,7 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 - **XGBoost (Extreme Gradient Boosting) is an advanced ensemble algorithm that combines multiple decision trees to improve accuracy.**
 - **It handles both categorical and numerical data efficiently, preventing overfitting via regularization parameters.**
-- **Chosen as the final model because it outperformed Linear and Ridge Regression with ~98% score on test data.***
+- **Chosen as the final model because it outperformed Linear and Ridge Regression with ~98% score on test data.**
 
 
 
