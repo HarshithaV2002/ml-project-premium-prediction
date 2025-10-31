@@ -1,5 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 from prediction_helper import predict
 
 # ================== PAGE SETUP ==================
