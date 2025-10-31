@@ -52,8 +52,9 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 
 
 ## Demo video
-https://github.com/HarshithaV2002/ml-project-premium-prediction/blob/main/demo_video.mp4
-*Click the link above to watch the demo video!*
+https://drive.google.com/file/d/1L7sy2HRW5xTpUVu-00zw2ZRahVqXZOfG/view?usp=drive_link
+
+### *Click the link above to watch the demo video!*
 
 
 ## Tech Stack
