@@ -10,9 +10,9 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 - **Predicts personalized health insurance costs.**
 - **Modern Streamlit web UI with a purple-themed design.**
 - **Input features include:**
--      **Demographic: Age, Gender, Marital Status, Dependents, Region**
--      **Lifestyle: Income, Stress Level, Physical Activity Level, Smoking Status**
--      **Medical: BMI Category, Medical History, Insurance Plan, Employment Status**
+     -**Demographic: Age, Gender, Marital Status, Dependents, Region**
+     -**Lifestyle: Income, Stress Level, Physical Activity Level, Smoking Status**
+     -**Medical: BMI Category, Medical History, Insurance Plan, Employment Status**
 -  **Donut chart visualization showing insurance plan distribution (Bronze, Silver, Gold).**
 -  **Trained using multiple regression models and tuned with RandomizedSearchCV for best accuracy.**
 
@@ -20,25 +20,25 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 ## Project Structure
 - **frontend – Contains the Streamlit application code and UI components.**
 - **artifacts/ – Stores the trained machine learning model and scaler objects saved using Joblib.**
--       **prediction_model.joblib – Trained XGBoostRegressor model used for predictions.**
--       **scaler_model.joblib – MinMaxScaler object used for feature scaling during preprocessing.**
+   -**prediction_model.joblib – Trained XGBoostRegressor model used for predictions.**
+   -**scaler_model.joblib – MinMaxScaler object used for feature scaling during preprocessing.**
 -   **requirements.txt – Lists all the required Python packages to run the project.**
 -   **README.md – Provides an overview, setup instructions, and details about the project.**
 
 ## Machine Learning Workflow
-1.### Data Cleaning
+1. Data Cleaning
 - **Handled missing values and outliers.**
 - **Normalized numerical features using MinMaxScaler.**
-2.### Feature Engineering
+2. Feature Engineering
 - **Created normalized_risk_score (based on Medical History) to represent disease severity.**
 - **Created lifestyle_risk_score (based on Physical & Stress Level) to capture lifestyle influence.**
 - **Applied Label Encoding and One-Hot Encoding for categorical features.**
-3.### Feature Selection
+3. Feature Selection
 - **Used Variance Inflation Factor (VIF) to identify and remove multicollinear features.**
-4.### Model Training & Evaluation
+4. Model Training & Evaluation
 - **Split the dataset using train_test_split.**
 - **Trained and evaluated the using Linearn Regression , Ridge Regression and XGBRegressor**
-5.###Hyperparameter Tuning
+5. Hyperparameter Tuning
 -**Used RandomizedSearchCV on XGBRegressor() to identify the best combination of parameters like:n_estimators, max_depth, learning_rate**
 -**Saved the final optimized model  for deployment.**
 
@@ -52,7 +52,9 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 
 
 ## Demo video
-
+<video width="600" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1L7sy2HRW5xTpUVu00zw2ZRahVqXZOfG" "type="video/mp4">
+</video>
 
 
 ## Tech Stack
@@ -62,9 +64,6 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 -**Data Processing: Pandas, NumPy**
 -**Model Serialization: Joblib**
 -**Visualization: Matplotlib, Seaborn**
-
-
-
 
 
 
@@ -85,6 +84,11 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
     streamlit run frontend/main.py
 
    ```
+
+
+## Live Demo
+You can access the deployed application here:
+[**Premium Prediction App – Live on Streamlit**](https://ml-project-healthcare-insurance-premium-prediction.streamlit.app/)
 
 
 ## Future Improvements
