@@ -53,15 +53,16 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 
 ## Demo video
 https://github.com/HarshithaV2002/ml-project-premium-prediction/blob/main/demo_video.mp4
+*Click the link above to watch the demo video!*
 
 
 ## Tech Stack
--**Frontend: Streamlit**
--**Backend / Model Handling: Python**
--**Machine Learning Libraries: Scikit-learn, XGBoost**
--**Data Processing: Pandas, NumPy**
--**Model Serialization: Joblib**
--**Visualization: Matplotlib, Seaborn**
+- **Frontend: Streamlit**
+- **Backend / Model Handling: Python**
+- **Machine Learning Libraries: Scikit-learn, XGBoost**
+- **Data Processing: Pandas, NumPy**
+- **Model Serialization: Joblib**
+- **Visualization: Matplotlib, Seaborn**
 
 
 
