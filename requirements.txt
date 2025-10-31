@@ -4,3 +4,4 @@ joblib==1.2.0
 xgboost==3.0.5
 streamlit==1.49.1
 scikit-learn==1.7.2
+matplotlib==3.10.7
