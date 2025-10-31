@@ -52,9 +52,7 @@ Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
 
 
 ## Demo video
-<video width="600" controls>
-  <source src="https://drive.google.com/uc?export=download&id=1L7sy2HRW5xTpUVu00zw2ZRahVqXZOfG" "type="video/mp4">
-</video>
+https://github.com/HarshithaV2002/ml-project-premium-prediction/blob/main/demo_video.mp4
 
 
 ## Tech Stack
@@ -92,6 +90,7 @@ You can access the deployed application here:
 
 
 ## Future Improvements
+
 -**Integrate database to save user predictions.**
 -**Add more medical & lifestyle parameters for improved accuracy.**
 -**Enable API-based prediction service for wider use.**
