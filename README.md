@@ -10,9 +10,9 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 - **Predicts personalized health insurance costs.**
 - **Modern Streamlit web UI with a purple-themed design.**
 - **Input features include:**
-     -**Demographic: Age, Gender, Marital Status, Dependents, Region**
-     -**Lifestyle: Income, Stress Level, Physical Activity Level, Smoking Status**
-     -**Medical: BMI Category, Medical History, Insurance Plan, Employment Status**
+     - **Demographic: Age, Gender, Marital Status, Dependents, Region**
+     - **Lifestyle: Income, Stress Level, Physical Activity Level, Smoking Status**
+     - **Medical: BMI Category, Medical History, Insurance Plan, Employment Status**
 -  **Donut chart visualization showing insurance plan distribution (Bronze, Silver, Gold).**
 -  **Trained using multiple regression models and tuned with RandomizedSearchCV for best accuracy.**
 
@@ -20,10 +20,10 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 ## Project Structure
 - **frontend – Contains the Streamlit application code and UI components.**
 - **artifacts/ – Stores the trained machine learning model and scaler objects saved using Joblib.**
-   -**prediction_model.joblib – Trained XGBoostRegressor model used for predictions.**
-   -**scaler_model.joblib – MinMaxScaler object used for feature scaling during preprocessing.**
--   **requirements.txt – Lists all the required Python packages to run the project.**
--   **README.md – Provides an overview, setup instructions, and details about the project.**
+   - **prediction_model.joblib – Trained XGBoostRegressor model used for predictions.**
+   - **scaler_model.joblib – MinMaxScaler object used for feature scaling during preprocessing.**
+- **requirements.txt – Lists all the required Python packages to run the project.**
+- **README.md – Provides an overview, setup instructions, and details about the project.**
 
 ## Machine Learning Workflow
 1. Data Cleaning
@@ -39,14 +39,14 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 - **Split the dataset using train_test_split.**
 - **Trained and evaluated the using Linearn Regression , Ridge Regression and XGBRegressor**
 5. Hyperparameter Tuning
--**Used RandomizedSearchCV on XGBRegressor() to identify the best combination of parameters like:n_estimators, max_depth, learning_rate**
--**Saved the final optimized model  for deployment.**
+- **Used RandomizedSearchCV on XGBRegressor() to identify the best combination of parameters like:n_estimators, max_depth, learning_rate**
+- **Saved the final optimized model  for deployment.**
 
 ## Model Explanation
 Final Model: XGBRegressor() (Tuned using RandomizedSearchCV)
--**XGBoost (Extreme Gradient Boosting) is an advanced ensemble algorithm that combines multiple decision trees to improve accuracy.**
--**It handles both categorical and numerical data efficiently, preventing overfitting via regularization parameters.**
--**Chosen as the final model because it outperformed Linear and Ridge Regression with ~98% score on test data.***
+- **XGBoost (Extreme Gradient Boosting) is an advanced ensemble algorithm that combines multiple decision trees to improve accuracy.**
+- **It handles both categorical and numerical data efficiently, preventing overfitting via regularization parameters.**
+- **Chosen as the final model because it outperformed Linear and Ridge Regression with ~98% score on test data.***
 
 
 
@@ -92,9 +92,9 @@ You can access the deployed application here:
 
 ## Future Improvements
 
--**Integrate database to save user predictions.**
--**Add more medical & lifestyle parameters for improved accuracy.**
--**Enable API-based prediction service for wider use.**
+- **Integrate database to save user predictions.**
+- **Add more medical & lifestyle parameters for improved accuracy.**
+- **Enable API-based prediction service for wider use.**
 
 
 ## Conclusion
