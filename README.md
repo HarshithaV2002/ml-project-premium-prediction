@@ -19,7 +19,7 @@ The frontend is built using Streamlit, providing a clean, interactive user inter
 
 ## Project Structure
 - **frontend – Contains the Streamlit application code and UI components.**
-- **artifacts/ – Stores the trained machine learning model and scaler objects saved using Joblib.**
+- **artifacts – Stores the trained machine learning model and scaler objects saved using Joblib.**
    - **prediction_model.joblib – Trained XGBoostRegressor model used for predictions.**
    - **scaler_model.joblib – MinMaxScaler object used for feature scaling during preprocessing.**
 - **requirements.txt – Lists all the required Python packages to run the project.**
